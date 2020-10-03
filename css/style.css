@@ -1727,7 +1727,7 @@ p.artficial:before{
 }
 .inner-box .text{font-size:15px;}
 .services-box .inner-box h3{color:#fff;}
-.services-box{background: #132b3f; color:#fff; padding:50px 50px 50px 50px !important; }
+.services-box{background: #132b3f; color:#fff; padding:50px 50px 50px 50px !important; margin-bottom:20px; }
 .services-box:hover{background: #d11b3f; transition: all .3s ease; }
 
 
