@@ -132,7 +132,7 @@
     if ($.fn.scrollUp) {
         $.scrollUp({
             scrollSpeed: 1500,
-            scrollText: 'Scroll Top'
+            scrollText: '',
         });
     }
 
