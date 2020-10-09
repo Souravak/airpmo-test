@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Title -->
+     <!-- Title -->
     <title>airpmo</title>
 
     <!-- Favicon -->
@@ -19,29 +19,30 @@
 
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="css/responsive.css">
+	
+	 <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
 
 </head>
 
 <body class="light-version">
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="preload-content">
-            <div id="dream-load"></div>
-        </div>
-    </div>
-
+    
     <!-- ##### Header Area Start ##### -->
-    <header class="header-area fadeInDown" data-wow-delay="0.2s">
-        <div class="classy-nav-container light breakpoint-off">
+    <header class="header-area wow fadeInDown" data-wow-delay="0.2s">
+        <div class="classy-nav-container breakpoint-off">
             <div class="container">
                 <!-- Classy Menu -->
-                <nav class="classy-navbar light justify-content-between" id="dreamNav">
+                <nav class="classy-navbar justify-content-between" id="dreamNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand light" href="index.html"><img src="img/core-img/logo.png" alt="logo"> </a>
+                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt="logo">&nbsp;</a>
 
                     <!-- Navbar Toggler -->
-                    <div class="classy-navbar-toggler demo">
+                    <div class="classy-navbar-toggler">
                         <span class="navbarToggler"><span></span><span></span><span></span></span>
                     </div>
 
@@ -56,9 +57,7 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul id="nav">
-							
-							
-							<li><a href="index.html">Home</a>
+                                <li><a href="index.html">Home</a>
                                 </li>
                                 <li><a href="about-us.html">About Us</a></li>
                                 <li><a href="services.html">Services</a>
@@ -70,21 +69,12 @@
                                     </ul>
 								</li>
                                 <li><a href="our-team.html">Our Team</a></li>
-                                <li><a href="index-blog.html">Blogs</a>
-                                    <ul class="dropdown">
-                                        <li><a href="index-blog.html">Blog Posts</a></li>
-                                        <li><a href="index-blog-with-sidebar.html">Sidebar Blog </a></li>
-                                        <li><a href="index-single-blog.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="index-blog.html">Blogs</a></li>
 								<li><a href="careers.html">Career</a></li>
                                 <li><a href="contact-us.html">Contact</a></li>
-								
-								
-                               
                             </ul>
 
-                             <!-- Button -->
+                            <!-- Button -->
                             <a href="https://airpmo.herokuapp.com/register" target="_blank" class="open-popup-link btn login-btn mr-im">Demo</a>
                             <!--a href="#signup-popup" class="open-signup-link btn login-btn">Signup </a-->
                         </div>
@@ -95,6 +85,53 @@
         </div>
     </header>
     <!-- ##### Header Area End ##### -->
+	
+	 <!-- Login popup form  -->
+
+    <div id="test-popup" class="white-popup mfp-hide">
+      <div class="top-form-header">
+          <h4>Login Form</h4>
+      </div>
+      <form action="#" method="post" id="main_login_form" novalidate="">
+            <div class="row">
+             
+               <div class="col-12 col-md-12">
+                    <div class="group">
+                        <input type="text" name="name" id="name0" required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Email</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12">
+                    <div class="group">
+                        <input type="password" name="name" id="name1" required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Password</label>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-5 text-left ">
+                    <button type="submit" class="btn dream-btn">Login</button>
+                </div>
+                <div class="col-12 col-sm-7 text-left">
+                    <p class="mb-0 mt-10">Don't have an account? <a href="" >Sign up</a></p>
+                </div>
+            </div>
+        </form>
+
+        <div class="other-accounts text-center">
+            <p class="w-text">Login with other account</p>
+            <div class="footer-social-info">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
 
     <!-- ##### Welcome Area Start ##### -->
     <div class="breadcumb-area clearfix dzsparallaxer auto-init" data-options='{direction: "normal"}'>
@@ -105,10 +142,10 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
                         <nav aria-label="breadcrumb" class="breadcumb--con text-center">
-                            <h2 class="w-text title wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-blogger"></i><br>Blog</h2>
+                            <h2 class="w-text title wow fadeInUp" data-wow-delay="0.2s"><br>Blogs</h2>
                             <ol class="breadcrumb justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Blogs</li>
                             </ol>
                         </nav>
                     </div>
@@ -118,182 +155,17 @@
     </div>
     <!-- ##### Welcome Area End ##### -->
 
-    <!-- ##### Blog Area Start ##### -->
-    <section class="blog-area section-padding-100-0">
-        <div class="container section-padding-70-0">
-            <div class="row">
-                <!-- Single Blog Post -->
-                <div class="col-12 col-sm-6">
-                    <div class="single-blog-area wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Post Thumbnail -->
-                        <div class="blog_thumbnail">
-                            <img src="img/blog-img/1.jpg" alt="">
-                        </div>
-                        <!-- Post Content -->
-                        <div class="blog-content">
-                            
-                            <div class="dream-dots mt-30">
-                                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="post-meta">
-                                <p>By <a href="#" class="post-author">Nazrul</a> <a href="#">Apr 10, 2020</a> <a href="#" class="post-comments">7 comments</a></p>
-                            </div>
-                            <a href="index-single-blog.html" class="post-title">
-                                <h4>How to become a successful businessman.</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat at vitae, ratione sapiente repellat.</p>
-                            <a href="index-single-blog.html" class="btn dream-btn mt-15">Read Details</a>
-                        </div>
-                    </div>
-                </div>
+    <div class="st-bg">
+        <!-- ##### Our features Area start ##### -->
+        <section class="features section-padding-70-0">
 
-                <!-- Single Blog Post -->
-                <div class="col-12 col-sm-6">
-                    <div class="single-blog-area wow fadeInUp" data-wow-delay="0.3s">
-                        <!-- Post Thumbnail -->
-                        <div class="blog_thumbnail">
-                            <img src="img/blog-img/2.jpg" alt="">
-                        </div>
-                        <!-- Post Content -->
-                        <div class="blog-content">
-                            
-                            <div class="dream-dots mt-30">
-                                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="post-meta">
-                                <p>By <a href="#" class="post-author">Nazrul</a> <a href="#">Apr 10, 2020</a> <a href="#" class="post-comments">7 comments</a></p>
-                            </div>
-                            <a href="index-single-blog.html" class="post-title">
-                                <h4>How to become a successful businessman.</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat at vitae, ratione sapiente repellat.</p>
-                            <a href="index-single-blog.html" class="btn dream-btn mt-15">Read Details</a>
-                        </div>
-                    </div>
-                </div>
+          <center> <h3> Coming Soon ... </h3></center> <br><br>
+        </section>
+        <!-- ##### Our features Area End ##### -->
+ </div>
+    
 
-                <!-- Single Blog Post -->
-                <div class="col-12 col-sm-6">
-                    <div class="single-blog-area wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Post Thumbnail -->
-                        <div class="blog_thumbnail">
-                            <img src="img/blog-img/3.jpg" alt="">
-                        </div>
-                        <!-- Post Content -->
-                        <div class="blog-content">
-                            
-                            <div class="dream-dots mt-30">
-                                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="post-meta">
-                                <p>By <a href="#" class="post-author">Nazrul</a> <a href="#">Apr 10, 2020</a> <a href="#" class="post-comments">7 comments</a></p>
-                            </div>
-                            <a href="index-single-blog.html" class="post-title">
-                                <h4>How to become a successful businessman.</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat at vitae, ratione sapiente repellat.</p>
-                            <a href="index-single-blog.html" class="btn dream-btn mt-15">Read Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Post -->
-                <div class="col-12 col-sm-6">
-                    <div class="single-blog-area wow fadeInUp" data-wow-delay="0.3s">
-                        <!-- Post Thumbnail -->
-                        <div class="blog_thumbnail">
-                            <img src="img/blog-img/1.jpg" alt="">
-                        </div>
-                        <!-- Post Content -->
-                        <div class="blog-content">
-                            
-                            <div class="dream-dots mt-30">
-                                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="post-meta">
-                                <p>By <a href="#" class="post-author">Nazrul</a> <a href="#">Apr 10, 2020</a> <a href="#" class="post-comments">7 comments</a></p>
-                            </div>
-                            <a href="index-single-blog.html" class="post-title">
-                                <h4>How to become a successful businessman.</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat at vitae, ratione sapiente repellat.</p>
-                            <a href="index-single-blog.html" class="btn dream-btn mt-15">Read Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Post -->
-                <div class="col-12 col-sm-6">
-                    <div class="single-blog-area wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Post Thumbnail -->
-                        <div class="blog_thumbnail">
-                            <img src="img/blog-img/2.jpg" alt="">
-                        </div>
-                        <!-- Post Content -->
-                        <div class="blog-content">
-                            
-                            <div class="dream-dots mt-30">
-                                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="post-meta">
-                                <p>By <a href="#" class="post-author">Nazrul</a> <a href="#">Apr 10, 2020</a> <a href="#" class="post-comments">7 comments</a></p>
-                            </div>
-                            <a href="index-single-blog.html" class="post-title">
-                                <h4>How to become a successful businessman.</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat at vitae, ratione sapiente repellat.</p>
-                            <a href="index-single-blog.html" class="btn dream-btn mt-15">Read Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Post -->
-                <div class="col-12 col-sm-6">
-                    <div class="single-blog-area wow fadeInUp" data-wow-delay="0.3s">
-                        <!-- Post Thumbnail -->
-                        <div class="blog_thumbnail">
-                            <img src="img/blog-img/3.jpg" alt="">
-                        </div>
-                        <!-- Post Content -->
-                        <div class="blog-content">
-                            
-                            <div class="dream-dots mt-30">
-                                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="post-meta">
-                                <p>By <a href="#" class="post-author">Nazrul</a> <a href="#">Apr 10, 2020</a> <a href="#" class="post-comments">7 comments</a></p>
-                            </div>
-                            <a href="index-single-blog.html" class="post-title">
-                                <h4>How to become a successful businessman.</h4>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat at vitae, ratione sapiente repellat.</p>
-                            <a href="index-single-blog.html" class="btn dream-btn mt-15">Read Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="dream-pagination wow fadeInUp" data-wow-delay="0.2s">
-                        <nav>
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                <li class="page-item"><a class="page-link" href="#">7</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Blog Area End ##### -->
-
+   
    <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area bg-img">
 
