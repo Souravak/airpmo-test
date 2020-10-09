@@ -104,6 +104,8 @@ body {
     background: -webkit-linear-gradient(left, #4834d4, #341f97);
     background: linear-gradient(to right, #4834d4, #341f97);
 	font-weight:300;
+	
+	
 }
 .darker-blue{
     background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240);
@@ -1727,7 +1729,7 @@ p.artficial:before{
 }
 .inner-box .text{font-size:15px;}
 .services-box .inner-box h3{color:#fff;}
-.services-box{background: #132b3f; color:#fff; padding:50px 50px 50px 50px !important; margin-bottom:20px; height:550px; }
+.services-box{background: #132b3f; color:#fff; padding:50px 50px 50px 50px !important; margin-bottom:20px; height:550px;  }
 .services-box:hover{background: #d11b3f; transition: all .3s ease; }
 
 
