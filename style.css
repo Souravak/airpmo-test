@@ -119,8 +119,11 @@ a{
 }
   
 .navbar a:hover, .dropdown:hover .dropbtn {
-    /* background-color: red; */
+    color: red !important;
 
+}
+.read-more >a:hover{
+    color: red !important;
 }
   
 .dropdown-content {

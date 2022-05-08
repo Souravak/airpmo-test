@@ -614,7 +614,7 @@ ol {
     transition: all 0.3s ease-in-out;
  }
 
-#scrollUp:before {
+#scrollUp:befor e {
     position: absolute;
     width: 30%;
     height: 2px;
