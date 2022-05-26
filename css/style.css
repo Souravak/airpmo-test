@@ -120,9 +120,10 @@ h4,
 h5,
 h6 {
     /* font-family: 'Ubuntu', sans-serif; */
-    color: #fff;
+    color: #2ED47A;
     line-height: 1.4;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 a,
@@ -183,7 +184,7 @@ ol {
     text-transform: uppercase;
 }
 .has-print{
-    position: absolute;
+    position: absolute;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
@@ -595,7 +596,7 @@ ol {
 
 
 #scrollUp {
-	  background: url(../img/core-img/top-arrow.png) #d11b3f no-repeat center;
+	  background: url(../img/core-img/top-arrow.png) #2ED47A no-repeat center;
     color: #ffffff !important;
     width: 40px;
     height: 40px;
@@ -4447,22 +4448,20 @@ div.accordian-box h2:hover{color:#ffffff !important; transition:.2s ease-in}
 
 
 /************************************************************/
-.flip-card {
-  background-color: transparent;
-  width: 550px;
-  height: 450px;
+/* .flip-card {
+    
+  background: transparent;
   perspective: 1000px;
   padding:50px;
-}
+} */
 
-.flip-card-inner {
+/* .flip-card-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
 }
 
 .flip-card:hover .flip-card-inner {
@@ -4472,38 +4471,64 @@ div.accordian-box h2:hover{color:#ffffff !important; transition:.2s ease-in}
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding:50px;
+  display: flex;
+    
 }
 
 .flip-card-front {
-  background-color: #e6e7e8;
+  background: #e6e7e8;
   color: black;
-}
+  height: 100%;
+} */
 /* .flip-card-front h3{font-size:28px; font-family: 'Ubuntu', sans-serif;} */
-.flip-card-front img{margin-bottom:20px;}
+/* .flip-card-front img{margin-bottom:20px;}
 .flip-card-back {
-  background-color: #d11b3f;
+  background: #2ED47A;
   color: white;
   transform: rotateY(180deg);
+  
 }
 
-.flip-card-back h5{color:white;}
-.flip-card-back ul li{color:white;}
-.flip-card-back a{color:white;}
-.flip-card-back a:hover{color: white;}
+.flip-card-back h5{
+    color:white;
+}
+.flip-card-back ul li{
+    color:white;
+}
+.flip-card-back a{
+    color:white;
+}
+.flip-card-back a:hover{
+    color: white;
+} */
 
-.service-border{border-top:5px solid #ffffff; transition:.2s ease; padding:0px 20px 5px 20px;}
-.service-border:hover{border-top:5px solid #d11b3f; transition:.2s ease-out; padding-top:20px;}
-.fa-envelope, .fa-phone{font-size:50px; background: #d11d3f; border-radius: 100px; padding: 20px; width: 90px; color: #fff; position: relative;
-    top: -18px;}
-
-
+.service-border{
+    border-top:5px solid #ffffff; 
+    transition:.2s ease; 
+    padding:0px 20px 5px 20px;
+}
+.service-border:hover{
+    border-top:5px solid #d11b3f; 
+    transition:.2s ease-out; 
+    padding-top:20px;
+}
+.fa-envelope, .fa-phone{
+    font-size:50px; 
+    background: #d11d3f; 
+    border-radius: 100px; 
+    padding: 20px; 
+    width: 90px; 
+    color: #fff; 
+    position: relative;
+    top: -18px;
+}
 
 /*******************************careers flip*****************************/
-.flip-card-career {
+
+/* .flip-card-career {
   background-color: transparent;
   width: 550px;
   height: 100px;
@@ -4515,7 +4540,6 @@ div.accordian-box h2:hover{color:#ffffff !important; transition:.2s ease-in}
 .flip-card-inner-career {
   position: relative;
   width: 100%;
-  height: 150px;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
@@ -4528,8 +4552,6 @@ div.accordian-box h2:hover{color:#ffffff !important; transition:.2s ease-in}
 
 .flip-card-front-career, .flip-card-back-career {
   position: absolute;
-  width: 100%;
-  height: 150px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding:50px;
@@ -4539,15 +4561,24 @@ div.accordian-box h2:hover{color:#ffffff !important; transition:.2s ease-in}
   background-color: #132b3f;
   color: black;
 }
-/* .flip-card-front-career h3{font-size:28px; font-family: 'Ubuntu', sans-serif;} */
-.flip-card-front-career img{margin-bottom:20px;}
+.flip-card-front-career img{
+    margin-bottom:20px;
+}
 .flip-card-back-career {
-  background-color: #d11b3f;
   color: white;
   transform: rotateY(180deg);
 }
 
-.flip-card-back-career h5{color:white; margin-top: 15px;}
-.flip-card-back-career ul li{color:white;}
-.flip-card-back-career a{color:white;}
-.flip-card-back-career a:hover{color: white;}
+.flip-card-back-career h5{
+    color:white; 
+    margin-top: 15px;
+}
+.flip-card-back-career ul li
+{color:white;
+}
+.flip-card-back-career a{
+    color:white;
+}
+.flip-card-back-career a:hover{
+    color: white;
+} */

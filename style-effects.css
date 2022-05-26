@@ -24,7 +24,7 @@ body::-webkit-scrollbar-track {
   
   .fade-in-up{
     cursor: pointer;
-    animation: fadeInOutAnimation 1s;
+    animation: fadeInOutAnimation 0.2s;
     animation-direction: alternate-reverse;
     animation-timing-function: ease-out;
   }
